@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgazebo_test_fixture.a  CMakeFiles/gazebo_test_fixture.dir/ServerFixture.cc.o CMakeFiles/gazebo_test_fixture.dir/ServerFixtureRecord.cc.o
+/usr/bin/ranlib libgazebo_test_fixture.a

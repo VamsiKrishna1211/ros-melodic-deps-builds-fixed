@@ -1,0 +1,10 @@
+prefix=/usr
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gazebo
+Description: Gazebo Libraries
+Version: 10.1.0
+Requires: sdformat protobuf  ignition-math4 ignition-msgs1 ignition-transport4 ignition-fuel_tools1
+Libs: -Wl,-rpath,${prefix}/lib/gazebo-10/plugins -L${libdir} -L${prefix}/lib/gazebo-10/plugins -lgazebo_transport -lgazebo_physics -lgazebo_sensors -lgazebo_rendering -lgazebo_gui -lgazebo_client -lgazebo_msgs -lgazebo_common -lgazebo -L/usr/lib64 -lBoost::thread -lBoost::system -lBoost::filesystem -lBoost::program_options -lBoost::regex -lBoost::iostreams -lBoost::date_time 
+CFlags: -I${includedir}/gazebo-10 -I/usr/include -std=c++11

@@ -1,0 +1,1444 @@
+The system is: Linux - 5.4.6-2-MANJARO - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: -march=x86-64;-mtune=generic;-O2;-pipe;-fstack-protector-strong;-fno-plt
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/3.16.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: -march=x86-64;-mtune=generic;-O2;-pipe;-fstack-protector-strong;-fno-plt
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/3.16.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_41f35/fast && /usr/bin/make -f CMakeFiles/cmTC_41f35.dir/build.make CMakeFiles/cmTC_41f35.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41f35.dir/testCCompiler.c.o
+/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt    -o CMakeFiles/cmTC_41f35.dir/testCCompiler.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_41f35
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41f35.dir/link.txt --verbose=1
+/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt   -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_41f35.dir/testCCompiler.c.o  -o cmTC_41f35 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cf017/fast && /usr/bin/make -f CMakeFiles/cmTC_cf017.dir/build.make CMakeFiles/cmTC_cf017.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf017.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt    -v -o CMakeFiles/cmTC_cf017.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++,d --enable-shared --enable-threads=posix --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto gdc_include_dir=/usr/include/dlang/gdc
+Thread model: posix
+gcc version 9.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fstack-protector-strong' '-fno-plt' '-v' '-o' 'CMakeFiles/cmTC_cf017.dir/CMakeCCompilerABI.c.o' '-c'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/cc1 -quiet -v /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=x86-64 -mtune=generic -auxbase-strip CMakeFiles/cmTC_cf017.dir/CMakeCCompilerABI.c.o -O2 -version -fstack-protector-strong -fno-plt -o - |
+ as -v --64 -o CMakeFiles/cmTC_cf017.dir/CMakeCCompilerABI.c.o
+GNU C17 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GNU assembler version 2.33.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.33.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 084559c67b5620be476de387987f6c74
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fstack-protector-strong' '-fno-plt' '-v' '-o' 'CMakeFiles/cmTC_cf017.dir/CMakeCCompilerABI.c.o' '-c'
+Linking C executable cmTC_cf017
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf017.dir/link.txt --verbose=1
+/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt   -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now -v -rdynamic CMakeFiles/cmTC_cf017.dir/CMakeCCompilerABI.c.o  -o cmTC_cf017 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++,d --enable-shared --enable-threads=posix --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto gdc_include_dir=/usr/include/dlang/gdc
+Thread model: posix
+gcc version 9.2.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fstack-protector-strong' '-fno-plt' '-v' '-rdynamic' '-o' 'cmTC_cf017'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQPHu8Q.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_cf017 /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -O1 --sort-common --as-needed -z relro -z now CMakeFiles/cmTC_cf017.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fstack-protector-strong' '-fno-plt' '-v' '-rdynamic' '-o' 'cmTC_cf017'
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_cf017/fast && /usr/bin/make -f CMakeFiles/cmTC_cf017.dir/build.make CMakeFiles/cmTC_cf017.dir/build]
+  ignore line: [make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_cf017.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt    -v -o CMakeFiles/cmTC_cf017.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c c++ ada fortran go lto objc obj-c++ d --enable-shared --enable-threads=posix --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto gdc_include_dir=/usr/include/dlang/gdc]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fstack-protector-strong' '-fno-plt' '-v' '-o' 'CMakeFiles/cmTC_cf017.dir/CMakeCCompilerABI.c.o' '-c']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/cc1 -quiet -v /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=x86-64 -mtune=generic -auxbase-strip CMakeFiles/cmTC_cf017.dir/CMakeCCompilerABI.c.o -O2 -version -fstack-protector-strong -fno-plt -o - |]
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_cf017.dir/CMakeCCompilerABI.c.o]
+  ignore line: [GNU C17 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GNU assembler version 2.33.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.33.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 084559c67b5620be476de387987f6c74]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fstack-protector-strong' '-fno-plt' '-v' '-o' 'CMakeFiles/cmTC_cf017.dir/CMakeCCompilerABI.c.o' '-c']
+  ignore line: [Linking C executable cmTC_cf017]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf017.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt   -Wl -O1 --sort-common --as-needed -z relro -z now -v -rdynamic CMakeFiles/cmTC_cf017.dir/CMakeCCompilerABI.c.o  -o cmTC_cf017 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c c++ ada fortran go lto objc obj-c++ d --enable-shared --enable-threads=posix --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto gdc_include_dir=/usr/include/dlang/gdc]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fstack-protector-strong' '-fno-plt' '-v' '-rdynamic' '-o' 'cmTC_cf017']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQPHu8Q.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_cf017 /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -O1 --sort-common --as-needed -z relro -z now CMakeFiles/cmTC_cf017.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccQPHu8Q.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cf017] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..]
+    arg [-O1] ==> ignore
+    arg [--sort-common] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [CMakeFiles/cmTC_cf017.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0;/usr/lib;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3d638/fast && /usr/bin/make -f CMakeFiles/cmTC_3d638.dir/build.make CMakeFiles/cmTC_3d638.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d638.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt    -o CMakeFiles/cmTC_3d638.dir/testCXXCompiler.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_3d638
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d638.dir/link.txt --verbose=1
+/usr/bin/c++  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt   -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_3d638.dir/testCXXCompiler.cxx.o  -o cmTC_3d638 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_34338/fast && /usr/bin/make -f CMakeFiles/cmTC_34338.dir/build.make CMakeFiles/cmTC_34338.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_34338.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt    -v -o CMakeFiles/cmTC_34338.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++,d --enable-shared --enable-threads=posix --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto gdc_include_dir=/usr/include/dlang/gdc
+Thread model: posix
+gcc version 9.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fstack-protector-strong' '-fno-plt' '-v' '-o' 'CMakeFiles/cmTC_34338.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=x86-64 -mtune=generic -auxbase-strip CMakeFiles/cmTC_34338.dir/CMakeCXXCompilerABI.cpp.o -O2 -version -fstack-protector-strong -fno-plt -o - |
+ as -v --64 -o CMakeFiles/cmTC_34338.dir/CMakeCXXCompilerABI.cpp.o
+GNU assembler version 2.33.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.33.1
+GNU C++14 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e70628160ff7c7e477f7d9570e6637cb
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fstack-protector-strong' '-fno-plt' '-v' '-o' 'CMakeFiles/cmTC_34338.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'
+Linking CXX executable cmTC_34338
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34338.dir/link.txt --verbose=1
+/usr/bin/c++  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt   -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now -v -rdynamic CMakeFiles/cmTC_34338.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_34338 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++,d --enable-shared --enable-threads=posix --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto gdc_include_dir=/usr/include/dlang/gdc
+Thread model: posix
+gcc version 9.2.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fstack-protector-strong' '-fno-plt' '-v' '-rdynamic' '-o' 'cmTC_34338' '-shared-libgcc'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjDp8Mu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_34338 /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -O1 --sort-common --as-needed -z relro -z now CMakeFiles/cmTC_34338.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fstack-protector-strong' '-fno-plt' '-v' '-rdynamic' '-o' 'cmTC_34338' '-shared-libgcc'
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0] ==> [/usr/include/c++/9.2.0]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu] ==> [/usr/include/c++/9.2.0/x86_64-pc-linux-gnu]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward] ==> [/usr/include/c++/9.2.0/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9.2.0;/usr/include/c++/9.2.0/x86_64-pc-linux-gnu;/usr/include/c++/9.2.0/backward;/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_34338/fast && /usr/bin/make -f CMakeFiles/cmTC_34338.dir/build.make CMakeFiles/cmTC_34338.dir/build]
+  ignore line: [make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_34338.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt    -v -o CMakeFiles/cmTC_34338.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c c++ ada fortran go lto objc obj-c++ d --enable-shared --enable-threads=posix --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto gdc_include_dir=/usr/include/dlang/gdc]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fstack-protector-strong' '-fno-plt' '-v' '-o' 'CMakeFiles/cmTC_34338.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=x86-64 -mtune=generic -auxbase-strip CMakeFiles/cmTC_34338.dir/CMakeCXXCompilerABI.cpp.o -O2 -version -fstack-protector-strong -fno-plt -o - |]
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_34338.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [GNU assembler version 2.33.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.33.1]
+  ignore line: [GNU C++14 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: e70628160ff7c7e477f7d9570e6637cb]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fstack-protector-strong' '-fno-plt' '-v' '-o' 'CMakeFiles/cmTC_34338.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc']
+  ignore line: [Linking CXX executable cmTC_34338]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34338.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt   -Wl -O1 --sort-common --as-needed -z relro -z now -v -rdynamic CMakeFiles/cmTC_34338.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_34338 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c c++ ada fortran go lto objc obj-c++ d --enable-shared --enable-threads=posix --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto gdc_include_dir=/usr/include/dlang/gdc]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=x86-64' '-mtune=generic' '-O2' '-pipe' '-fstack-protector-strong' '-fno-plt' '-v' '-rdynamic' '-o' 'cmTC_34338' '-shared-libgcc']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjDp8Mu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_34338 /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -O1 --sort-common --as-needed -z relro -z now CMakeFiles/cmTC_34338.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccjDp8Mu.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_34338] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..]
+    arg [-O1] ==> ignore
+    arg [--sort-common] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [CMakeFiles/cmTC_34338.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0;/usr/lib;/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_20a0c/fast && /usr/bin/make -f CMakeFiles/cmTC_20a0c.dir/build.make CMakeFiles/cmTC_20a0c.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20a0c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt    -o CMakeFiles/cmTC_20a0c.dir/CheckIncludeFile.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_20a0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20a0c.dir/link.txt --verbose=1
+/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt   -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_20a0c.dir/CheckIncludeFile.c.o  -o cmTC_20a0c 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e75d5/fast && /usr/bin/make -f CMakeFiles/cmTC_e75d5.dir/build.make CMakeFiles/cmTC_e75d5.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e75d5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e75d5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e75d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e75d5.dir/link.txt --verbose=1
+/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_e75d5.dir/CheckFunctionExists.c.o  -o cmTC_e75d5  -lpthread 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test R-Wall succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ae2e9/fast && /usr/bin/make -f CMakeFiles/cmTC_ae2e9.dir/build.make CMakeFiles/cmTC_ae2e9.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ae2e9.dir/src.cxx.o
+/usr/bin/c++    -DR-Wall   -Wall -o CMakeFiles/cmTC_ae2e9.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_ae2e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae2e9.dir/link.txt --verbose=1
+/usr/bin/c++   -DR-Wall  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_ae2e9.dir/src.cxx.o  -o cmTC_ae2e9 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test R-Wextra succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7200e/fast && /usr/bin/make -f CMakeFiles/cmTC_7200e.dir/build.make CMakeFiles/cmTC_7200e.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7200e.dir/src.cxx.o
+/usr/bin/c++    -DR-Wextra   -Wextra -o CMakeFiles/cmTC_7200e.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_7200e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7200e.dir/link.txt --verbose=1
+/usr/bin/c++   -DR-Wextra  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_7200e.dir/src.cxx.o  -o cmTC_7200e 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test R-Wno-long-long succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8172d/fast && /usr/bin/make -f CMakeFiles/cmTC_8172d.dir/build.make CMakeFiles/cmTC_8172d.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8172d.dir/src.cxx.o
+/usr/bin/c++    -DR-Wno-long-long   -Wno-long-long -o CMakeFiles/cmTC_8172d.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_8172d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8172d.dir/link.txt --verbose=1
+/usr/bin/c++   -DR-Wno-long-long  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_8172d.dir/src.cxx.o  -o cmTC_8172d 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test R-Wno-unused-value succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bab37/fast && /usr/bin/make -f CMakeFiles/cmTC_bab37.dir/build.make CMakeFiles/cmTC_bab37.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bab37.dir/src.cxx.o
+/usr/bin/c++    -DR-Wno-unused-value   -Wno-unused-value -o CMakeFiles/cmTC_bab37.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_bab37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bab37.dir/link.txt --verbose=1
+/usr/bin/c++   -DR-Wno-unused-value  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_bab37.dir/src.cxx.o  -o cmTC_bab37 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test R-Wfloat-equal succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e77f7/fast && /usr/bin/make -f CMakeFiles/cmTC_e77f7.dir/build.make CMakeFiles/cmTC_e77f7.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e77f7.dir/src.cxx.o
+/usr/bin/c++    -DR-Wfloat-equal   -Wfloat-equal -o CMakeFiles/cmTC_e77f7.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_e77f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e77f7.dir/link.txt --verbose=1
+/usr/bin/c++   -DR-Wfloat-equal  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_e77f7.dir/src.cxx.o  -o cmTC_e77f7 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test R-Wshadow succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_93e90/fast && /usr/bin/make -f CMakeFiles/cmTC_93e90.dir/build.make CMakeFiles/cmTC_93e90.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_93e90.dir/src.cxx.o
+/usr/bin/c++    -DR-Wshadow   -Wshadow -o CMakeFiles/cmTC_93e90.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_93e90
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93e90.dir/link.txt --verbose=1
+/usr/bin/c++   -DR-Wshadow  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_93e90.dir/src.cxx.o  -o cmTC_93e90 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test R-Wswitch-default succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7f973/fast && /usr/bin/make -f CMakeFiles/cmTC_7f973.dir/build.make CMakeFiles/cmTC_7f973.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7f973.dir/src.cxx.o
+/usr/bin/c++    -DR-Wswitch-default   -Wswitch-default -o CMakeFiles/cmTC_7f973.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_7f973
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f973.dir/link.txt --verbose=1
+/usr/bin/c++   -DR-Wswitch-default  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_7f973.dir/src.cxx.o  -o cmTC_7f973 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test R-Wmissing-include-dirs succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3e5c8/fast && /usr/bin/make -f CMakeFiles/cmTC_3e5c8.dir/build.make CMakeFiles/cmTC_3e5c8.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3e5c8.dir/src.cxx.o
+/usr/bin/c++    -DR-Wmissing-include-dirs   -Wmissing-include-dirs -o CMakeFiles/cmTC_3e5c8.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_3e5c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e5c8.dir/link.txt --verbose=1
+/usr/bin/c++   -DR-Wmissing-include-dirs  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_3e5c8.dir/src.cxx.o  -o cmTC_3e5c8 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test R-pedantic succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_66ca1/fast && /usr/bin/make -f CMakeFiles/cmTC_66ca1.dir/build.make CMakeFiles/cmTC_66ca1.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_66ca1.dir/src.cxx.o
+/usr/bin/c++    -DR-pedantic   -pedantic -o CMakeFiles/cmTC_66ca1.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_66ca1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66ca1.dir/link.txt --verbose=1
+/usr/bin/c++   -DR-pedantic  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_66ca1.dir/src.cxx.o  -o cmTC_66ca1 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test R-fvisibility=hidden succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_34c84/fast && /usr/bin/make -f CMakeFiles/cmTC_34c84.dir/build.make CMakeFiles/cmTC_34c84.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_34c84.dir/src.cxx.o
+/usr/bin/c++    -DR-fvisibility=hidden   -fvisibility=hidden -o CMakeFiles/cmTC_34c84.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_34c84
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34c84.dir/link.txt --verbose=1
+/usr/bin/c++   -DR-fvisibility=hidden  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_34c84.dir/src.cxx.o  -o cmTC_34c84 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test R-fvisibility-inlines-hidden succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ed76d/fast && /usr/bin/make -f CMakeFiles/cmTC_ed76d.dir/build.make CMakeFiles/cmTC_ed76d.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ed76d.dir/src.cxx.o
+/usr/bin/c++    -DR-fvisibility-inlines-hidden   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_ed76d.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_ed76d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed76d.dir/link.txt --verbose=1
+/usr/bin/c++   -DR-fvisibility-inlines-hidden  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_ed76d.dir/src.cxx.o  -o cmTC_ed76d 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_ALLOCA succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d1796/fast && /usr/bin/make -f CMakeFiles/cmTC_d1796.dir/build.make CMakeFiles/cmTC_d1796.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d1796.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_ALLOCA   -o CMakeFiles/cmTC_d1796.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d1796
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1796.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_ALLOCA  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_d1796.dir/src.cxx.o  -o cmTC_d1796 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <alloca.h> 
+int main() {alloca(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_ATAN2F succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fbdfb/fast && /usr/bin/make -f CMakeFiles/cmTC_fbdfb.dir/build.make CMakeFiles/cmTC_fbdfb.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fbdfb.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_ATAN2F   -o CMakeFiles/cmTC_fbdfb.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fbdfb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbdfb.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_ATAN2F  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_fbdfb.dir/src.cxx.o  -o cmTC_fbdfb 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <math.h> 
+int main() {atan2f(0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_COPYSIGN succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fc991/fast && /usr/bin/make -f CMakeFiles/cmTC_fc991.dir/build.make CMakeFiles/cmTC_fc991.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fc991.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_COPYSIGN   -o CMakeFiles/cmTC_fc991.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fc991
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc991.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_COPYSIGN  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_fc991.dir/src.cxx.o  -o cmTC_fc991 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <math.h> 
+int main() {copysign(0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_COPYSIGNF succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_33eb2/fast && /usr/bin/make -f CMakeFiles/cmTC_33eb2.dir/build.make CMakeFiles/cmTC_33eb2.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_33eb2.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_COPYSIGNF   -o CMakeFiles/cmTC_33eb2.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_33eb2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33eb2.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_COPYSIGNF  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_33eb2.dir/src.cxx.o  -o cmTC_33eb2 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <math.h> 
+int main() {copysignf(0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_COSF succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_34fa1/fast && /usr/bin/make -f CMakeFiles/cmTC_34fa1.dir/build.make CMakeFiles/cmTC_34fa1.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_34fa1.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_COSF   -o CMakeFiles/cmTC_34fa1.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_34fa1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34fa1.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_COSF  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_34fa1.dir/src.cxx.o  -o cmTC_34fa1 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <math.h> 
+int main() {cosf(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_FABSF succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_12018/fast && /usr/bin/make -f CMakeFiles/cmTC_12018.dir/build.make CMakeFiles/cmTC_12018.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_12018.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_FABSF   -o CMakeFiles/cmTC_12018.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_12018
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12018.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_FABSF  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_12018.dir/src.cxx.o  -o cmTC_12018 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <math.h> 
+int main() {fabsf(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_FLOOR succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8da66/fast && /usr/bin/make -f CMakeFiles/cmTC_8da66.dir/build.make CMakeFiles/cmTC_8da66.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8da66.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_FLOOR   -o CMakeFiles/cmTC_8da66.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8da66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8da66.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_FLOOR  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_8da66.dir/src.cxx.o  -o cmTC_8da66 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <math.h> 
+int main() {floor(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_FMODF succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fc7b1/fast && /usr/bin/make -f CMakeFiles/cmTC_fc7b1.dir/build.make CMakeFiles/cmTC_fc7b1.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fc7b1.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_FMODF   -o CMakeFiles/cmTC_fc7b1.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fc7b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc7b1.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_FMODF  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_fc7b1.dir/src.cxx.o  -o cmTC_fc7b1 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <math.h> 
+int main() {fmodf(0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_GETTIMEOFDAY succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e98b3/fast && /usr/bin/make -f CMakeFiles/cmTC_e98b3.dir/build.make CMakeFiles/cmTC_e98b3.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e98b3.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_GETTIMEOFDAY   -o CMakeFiles/cmTC_e98b3.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx:2:29: warning: null argument where non-null required (argument 1) [-Wnonnull]
+    2 | int main() {gettimeofday(0,0); return 1;}
+      |                             ^
+Linking CXX executable cmTC_e98b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e98b3.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_GETTIMEOFDAY  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_e98b3.dir/src.cxx.o  -o cmTC_e98b3 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <sys/time.h> 
+int main() {gettimeofday(0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_ISNAN succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_65727/fast && /usr/bin/make -f CMakeFiles/cmTC_65727.dir/build.make CMakeFiles/cmTC_65727.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_65727.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_ISNAN   -o CMakeFiles/cmTC_65727.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_65727
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65727.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_ISNAN  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_65727.dir/src.cxx.o  -o cmTC_65727 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <math.h> 
+int main() {isnan(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_ISNANF succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b9cad/fast && /usr/bin/make -f CMakeFiles/cmTC_b9cad.dir/build.make CMakeFiles/cmTC_b9cad.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b9cad.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_ISNANF   -o CMakeFiles/cmTC_b9cad.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b9cad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9cad.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_ISNANF  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_b9cad.dir/src.cxx.o  -o cmTC_b9cad 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <math.h> 
+int main() {isnanf(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_MALLOC succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ccfe9/fast && /usr/bin/make -f CMakeFiles/cmTC_ccfe9.dir/build.make CMakeFiles/cmTC_ccfe9.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ccfe9.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_MALLOC   -o CMakeFiles/cmTC_ccfe9.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ccfe9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccfe9.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_MALLOC  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_ccfe9.dir/src.cxx.o  -o cmTC_ccfe9 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <stdlib.h> 
+int main() {malloc(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_MEMMOVE succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b5c21/fast && /usr/bin/make -f CMakeFiles/cmTC_b5c21.dir/build.make CMakeFiles/cmTC_b5c21.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b5c21.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_MEMMOVE   -o CMakeFiles/cmTC_b5c21.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx:2:26: warning: null argument where non-null required (argument 1) [-Wnonnull]
+    2 | int main() {memmove(0,0,0); return 1;}
+      |                          ^
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx:2:26: warning: null argument where non-null required (argument 2) [-Wnonnull]
+Linking CXX executable cmTC_b5c21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5c21.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_MEMMOVE  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_b5c21.dir/src.cxx.o  -o cmTC_b5c21 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <string.h> 
+int main() {memmove(0,0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_MEMSET succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fed72/fast && /usr/bin/make -f CMakeFiles/cmTC_fed72.dir/build.make CMakeFiles/cmTC_fed72.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fed72.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_MEMSET   -o CMakeFiles/cmTC_fed72.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx:2:25: warning: null argument where non-null required (argument 1) [-Wnonnull]
+    2 | int main() {memset(0,0,0); return 1;}
+      |                         ^
+Linking CXX executable cmTC_fed72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fed72.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_MEMSET  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_fed72.dir/src.cxx.o  -o cmTC_fed72 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <string.h> 
+int main() {memset(0,0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_REALLOC succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d6cf7/fast && /usr/bin/make -f CMakeFiles/cmTC_d6cf7.dir/build.make CMakeFiles/cmTC_d6cf7.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6cf7.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_REALLOC   -o CMakeFiles/cmTC_d6cf7.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx:2:20: warning: ignoring return value of ‘void* realloc(void*, size_t)’, declared with attribute warn_unused_result [-Wunused-result]
+    2 | int main() {realloc(0,0); return 1;}
+      |             ~~~~~~~^~~~~
+Linking CXX executable cmTC_d6cf7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6cf7.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_REALLOC  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_d6cf7.dir/src.cxx.o  -o cmTC_d6cf7 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <stdlib.h> 
+int main() {realloc(0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_SELECT succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_454d2/fast && /usr/bin/make -f CMakeFiles/cmTC_454d2.dir/build.make CMakeFiles/cmTC_454d2.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_454d2.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_SELECT   -o CMakeFiles/cmTC_454d2.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_454d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_454d2.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_SELECT  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_454d2.dir/src.cxx.o  -o cmTC_454d2 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <sys/select.h> 
+int main() {select(0,0,0,0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_SINF succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3db52/fast && /usr/bin/make -f CMakeFiles/cmTC_3db52.dir/build.make CMakeFiles/cmTC_3db52.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3db52.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_SINF   -o CMakeFiles/cmTC_3db52.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3db52
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3db52.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_SINF  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_3db52.dir/src.cxx.o  -o cmTC_3db52 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <math.h> 
+int main() {sinf(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_SPRINTF succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cde2c/fast && /usr/bin/make -f CMakeFiles/cmTC_cde2c.dir/build.make CMakeFiles/cmTC_cde2c.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cde2c.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_SPRINTF   -o CMakeFiles/cmTC_cde2c.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx:2:24: warning: null argument where non-null required (argument 1) [-Wnonnull]
+    2 | int main() {sprintf(0,0); return 1;}
+      |                        ^
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx:2:24: warning: null argument where non-null required (argument 2) [-Wnonnull]
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx:2:20: warning: null destination pointer [-Wformat-overflow=]
+    2 | int main() {sprintf(0,0); return 1;}
+      |             ~~~~~~~^~~~~
+Linking CXX executable cmTC_cde2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cde2c.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_SPRINTF  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_cde2c.dir/src.cxx.o  -o cmTC_cde2c 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <stdio.h> 
+int main() {sprintf(0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_SQRT succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fa230/fast && /usr/bin/make -f CMakeFiles/cmTC_fa230.dir/build.make CMakeFiles/cmTC_fa230.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fa230.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_SQRT   -o CMakeFiles/cmTC_fa230.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fa230
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa230.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_SQRT  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_fa230.dir/src.cxx.o  -o cmTC_fa230 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <math.h> 
+int main() {sqrt(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_SQRTF succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_36b3e/fast && /usr/bin/make -f CMakeFiles/cmTC_36b3e.dir/build.make CMakeFiles/cmTC_36b3e.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_36b3e.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_SQRTF   -o CMakeFiles/cmTC_36b3e.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_36b3e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36b3e.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_SQRTF  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_36b3e.dir/src.cxx.o  -o cmTC_36b3e 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <math.h> 
+int main() {sqrtf(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_VPRINTF succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_61fdd/fast && /usr/bin/make -f CMakeFiles/cmTC_61fdd.dir/build.make CMakeFiles/cmTC_61fdd.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_61fdd.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_VPRINTF   -o CMakeFiles/cmTC_61fdd.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx:3:37: warning: null argument where non-null required (argument 1) [-Wnonnull]
+    3 | int main() {va_list ap; vprintf(0,ap); return 1;}
+      |                                     ^
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx:3:35: warning: too many arguments for format [-Wformat-extra-args]
+    3 | int main() {va_list ap; vprintf(0,ap); return 1;}
+      |                                   ^~
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx:3:32: warning: null format string [-Wformat-overflow=]
+    3 | int main() {va_list ap; vprintf(0,ap); return 1;}
+      |                         ~~~~~~~^~~~~~
+Linking CXX executable cmTC_61fdd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61fdd.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_VPRINTF  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_61fdd.dir/src.cxx.o  -o cmTC_61fdd 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <stdarg.h> 
+#include <stdio.h>
+int main() {va_list ap; vprintf(0,ap); return 1;}
+Performing C++ SOURCE FILE Test HAVE_VSNPRINTF succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a5bc0/fast && /usr/bin/make -f CMakeFiles/cmTC_a5bc0.dir/build.make CMakeFiles/cmTC_a5bc0.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a5bc0.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_VSNPRINTF   -o CMakeFiles/cmTC_a5bc0.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx:3:43: warning: null argument where non-null required (argument 3) [-Wnonnull]
+    3 | int main() {va_list ap; vsnprintf(0,0,0,ap); return 1;}
+      |                                           ^
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx:3:41: warning: too many arguments for format [-Wformat-extra-args]
+    3 | int main() {va_list ap; vsnprintf(0,0,0,ap); return 1;}
+      |                                         ^~
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx:3:34: warning: null format string [-Wformat-truncation=]
+    3 | int main() {va_list ap; vsnprintf(0,0,0,ap); return 1;}
+      |                         ~~~~~~~~~^~~~~~~~~~
+Linking CXX executable cmTC_a5bc0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5bc0.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_VSNPRINTF  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_a5bc0.dir/src.cxx.o  -o cmTC_a5bc0 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <stdarg.h> 
+#include <stdio.h>
+int main() {va_list ap; vsnprintf(0,0,0,ap); return 1;}
+Performing C++ SOURCE FILE Test HAVE_SNPRINTF succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7a871/fast && /usr/bin/make -f CMakeFiles/cmTC_7a871.dir/build.make CMakeFiles/cmTC_7a871.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7a871.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_SNPRINTF   -o CMakeFiles/cmTC_7a871.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx:2:27: warning: null argument where non-null required (argument 3) [-Wnonnull]
+    2 | int main() {snprintf(0,0,0); return 1;}
+      |                           ^
+/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx:2:21: warning: null format string [-Wformat-truncation=]
+    2 | int main() {snprintf(0,0,0); return 1;}
+      |             ~~~~~~~~^~~~~~~
+Linking CXX executable cmTC_7a871
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a871.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_SNPRINTF  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_7a871.dir/src.cxx.o  -o cmTC_7a871 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <stdio.h> 
+int main() {snprintf(0,0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_LIMITS succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d2472/fast && /usr/bin/make -f CMakeFiles/cmTC_d2472.dir/build.make CMakeFiles/cmTC_d2472.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d2472.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_LIMITS   -o CMakeFiles/cmTC_d2472.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d2472
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2472.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_LIMITS  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_d2472.dir/src.cxx.o  -o cmTC_d2472 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <limits> 
+int main() {return 1;}
+Performing C++ SOURCE FILE Test HAVE_BOOST_SHARED_ARRAY_HPP succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b0e30/fast && /usr/bin/make -f CMakeFiles/cmTC_b0e30.dir/build.make CMakeFiles/cmTC_b0e30.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b0e30.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_BOOST_SHARED_ARRAY_HPP   -o CMakeFiles/cmTC_b0e30.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b0e30
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0e30.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11 -DHAVE_BOOST_SHARED_ARRAY_HPP  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_b0e30.dir/src.cxx.o  -o cmTC_b0e30 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <boost/shared_array.hpp> 
+int main() {return 1;}
+Determining if files alloca.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_52425/fast && /usr/bin/make -f CMakeFiles/cmTC_52425.dir/build.make CMakeFiles/cmTC_52425.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52425.dir/HAVE_ALLOCA_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_52425.dir/HAVE_ALLOCA_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_ALLOCA_H.c
+Linking C executable cmTC_52425
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52425.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_52425.dir/HAVE_ALLOCA_H.c.o  -o cmTC_52425 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6d96f/fast && /usr/bin/make -f CMakeFiles/cmTC_6d96f.dir/build.make CMakeFiles/cmTC_6d96f.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d96f.dir/HAVE_DLFCN_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_6d96f.dir/HAVE_DLFCN_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_DLFCN_H.c
+Linking C executable cmTC_6d96f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d96f.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_6d96f.dir/HAVE_DLFCN_H.c.o  -o cmTC_6d96f 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files float.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_230f3/fast && /usr/bin/make -f CMakeFiles/cmTC_230f3.dir/build.make CMakeFiles/cmTC_230f3.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_230f3.dir/HAVE_FLOAT_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_230f3.dir/HAVE_FLOAT_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_FLOAT_H.c
+Linking C executable cmTC_230f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_230f3.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_230f3.dir/HAVE_FLOAT_H.c.o  -o cmTC_230f3 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_849cf/fast && /usr/bin/make -f CMakeFiles/cmTC_849cf.dir/build.make CMakeFiles/cmTC_849cf.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_849cf.dir/HAVE_INTTYPES_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_849cf.dir/HAVE_INTTYPES_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_INTTYPES_H.c
+Linking C executable cmTC_849cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_849cf.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_849cf.dir/HAVE_INTTYPES_H.c.o  -o cmTC_849cf 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_228ec/fast && /usr/bin/make -f CMakeFiles/cmTC_228ec.dir/build.make CMakeFiles/cmTC_228ec.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_228ec.dir/HAVE_MALLOC_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_228ec.dir/HAVE_MALLOC_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_MALLOC_H.c
+Linking C executable cmTC_228ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_228ec.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_228ec.dir/HAVE_MALLOC_H.c.o  -o cmTC_228ec 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files math.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5d581/fast && /usr/bin/make -f CMakeFiles/cmTC_5d581.dir/build.make CMakeFiles/cmTC_5d581.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d581.dir/HAVE_MATH_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_5d581.dir/HAVE_MATH_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_MATH_H.c
+Linking C executable cmTC_5d581
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d581.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_5d581.dir/HAVE_MATH_H.c.o  -o cmTC_5d581 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_46cd0/fast && /usr/bin/make -f CMakeFiles/cmTC_46cd0.dir/build.make CMakeFiles/cmTC_46cd0.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46cd0.dir/HAVE_MEMORY_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_46cd0.dir/HAVE_MEMORY_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_MEMORY_H.c
+Linking C executable cmTC_46cd0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46cd0.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_46cd0.dir/HAVE_MEMORY_H.c.o  -o cmTC_46cd0 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdarg.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_77257/fast && /usr/bin/make -f CMakeFiles/cmTC_77257.dir/build.make CMakeFiles/cmTC_77257.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77257.dir/HAVE_STDARG_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_77257.dir/HAVE_STDARG_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_STDARG_H.c
+Linking C executable cmTC_77257
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77257.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_77257.dir/HAVE_STDARG_H.c.o  -o cmTC_77257 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_abee2/fast && /usr/bin/make -f CMakeFiles/cmTC_abee2.dir/build.make CMakeFiles/cmTC_abee2.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abee2.dir/HAVE_STDBOOL_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_abee2.dir/HAVE_STDBOOL_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_STDBOOL_H.c
+Linking C executable cmTC_abee2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abee2.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_abee2.dir/HAVE_STDBOOL_H.c.o  -o cmTC_abee2 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c6149/fast && /usr/bin/make -f CMakeFiles/cmTC_c6149.dir/build.make CMakeFiles/cmTC_c6149.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6149.dir/HAVE_STDINT_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_c6149.dir/HAVE_STDINT_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_STDINT_H.c
+Linking C executable cmTC_c6149
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6149.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_c6149.dir/HAVE_STDINT_H.c.o  -o cmTC_c6149 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdio.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_922a6/fast && /usr/bin/make -f CMakeFiles/cmTC_922a6.dir/build.make CMakeFiles/cmTC_922a6.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_922a6.dir/HAVE_STDIO_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_922a6.dir/HAVE_STDIO_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_STDIO_H.c
+Linking C executable cmTC_922a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_922a6.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_922a6.dir/HAVE_STDIO_H.c.o  -o cmTC_922a6 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ad7e/fast && /usr/bin/make -f CMakeFiles/cmTC_7ad7e.dir/build.make CMakeFiles/cmTC_7ad7e.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ad7e.dir/HAVE_STDLIB_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_7ad7e.dir/HAVE_STDLIB_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_STDLIB_H.c
+Linking C executable cmTC_7ad7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ad7e.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_7ad7e.dir/HAVE_STDLIB_H.c.o  -o cmTC_7ad7e 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7b482/fast && /usr/bin/make -f CMakeFiles/cmTC_7b482.dir/build.make CMakeFiles/cmTC_7b482.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b482.dir/HAVE_STRINGS_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_7b482.dir/HAVE_STRINGS_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_STRINGS_H.c
+Linking C executable cmTC_7b482
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b482.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_7b482.dir/HAVE_STRINGS_H.c.o  -o cmTC_7b482 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8bfcc/fast && /usr/bin/make -f CMakeFiles/cmTC_8bfcc.dir/build.make CMakeFiles/cmTC_8bfcc.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8bfcc.dir/HAVE_STRING_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_8bfcc.dir/HAVE_STRING_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_STRING_H.c
+Linking C executable cmTC_8bfcc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bfcc.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_8bfcc.dir/HAVE_STRING_H.c.o  -o cmTC_8bfcc 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/select.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dfe8a/fast && /usr/bin/make -f CMakeFiles/cmTC_dfe8a.dir/build.make CMakeFiles/cmTC_dfe8a.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfe8a.dir/HAVE_SYS_SELECT_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_dfe8a.dir/HAVE_SYS_SELECT_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SELECT_H.c
+Linking C executable cmTC_dfe8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfe8a.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_dfe8a.dir/HAVE_SYS_SELECT_H.c.o  -o cmTC_dfe8a 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/socket.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_03809/fast && /usr/bin/make -f CMakeFiles/cmTC_03809.dir/build.make CMakeFiles/cmTC_03809.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03809.dir/HAVE_SYS_SOCKET_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_03809.dir/HAVE_SYS_SOCKET_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SOCKET_H.c
+Linking C executable cmTC_03809
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03809.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_03809.dir/HAVE_SYS_SOCKET_H.c.o  -o cmTC_03809 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3fe53/fast && /usr/bin/make -f CMakeFiles/cmTC_3fe53.dir/build.make CMakeFiles/cmTC_3fe53.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fe53.dir/HAVE_SYS_STAT_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_3fe53.dir/HAVE_SYS_STAT_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_STAT_H.c
+Linking C executable cmTC_3fe53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fe53.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_3fe53.dir/HAVE_SYS_STAT_H.c.o  -o cmTC_3fe53 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7acce/fast && /usr/bin/make -f CMakeFiles/cmTC_7acce.dir/build.make CMakeFiles/cmTC_7acce.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7acce.dir/HAVE_SYS_TIME_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_7acce.dir/HAVE_SYS_TIME_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TIME_H.c
+Linking C executable cmTC_7acce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7acce.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_7acce.dir/HAVE_SYS_TIME_H.c.o  -o cmTC_7acce 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5b685/fast && /usr/bin/make -f CMakeFiles/cmTC_5b685.dir/build.make CMakeFiles/cmTC_5b685.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b685.dir/HAVE_SYS_TYPES_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_5b685.dir/HAVE_SYS_TYPES_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TYPES_H.c
+Linking C executable cmTC_5b685
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b685.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_5b685.dir/HAVE_SYS_TYPES_H.c.o  -o cmTC_5b685 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_afde2/fast && /usr/bin/make -f CMakeFiles/cmTC_afde2.dir/build.make CMakeFiles/cmTC_afde2.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_afde2.dir/HAVE_TIME_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_afde2.dir/HAVE_TIME_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_TIME_H.c
+Linking C executable cmTC_afde2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afde2.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_afde2.dir/HAVE_TIME_H.c.o  -o cmTC_afde2 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9fb98/fast && /usr/bin/make -f CMakeFiles/cmTC_9fb98.dir/build.make CMakeFiles/cmTC_9fb98.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9fb98.dir/HAVE_UNISTD_H.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_9fb98.dir/HAVE_UNISTD_H.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
+Linking C executable cmTC_9fb98
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fb98.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_9fb98.dir/HAVE_UNISTD_H.c.o  -o cmTC_9fb98 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files obstack.h exist passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_94b72/fast && /usr/bin/make -f CMakeFiles/cmTC_94b72.dir/build.make CMakeFiles/cmTC_94b72.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94b72.dir/HAVE_OBSTACK.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTC_94b72.dir/HAVE_OBSTACK.c.o   -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CheckIncludeFiles/HAVE_OBSTACK.c
+Linking C executable cmTC_94b72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94b72.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_94b72.dir/HAVE_OBSTACK.c.o  -o cmTC_94b72 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cos exists in the m passed with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9d7e1/fast && /usr/bin/make -f CMakeFiles/cmTC_9d7e1.dir/build.make CMakeFiles/cmTC_9d7e1.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d7e1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DCHECK_FUNCTION_EXISTS=cos   -o CMakeFiles/cmTC_9d7e1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘cos’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘cos’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_9d7e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d7e1.dir/link.txt --verbose=1
+/usr/bin/cc  -s -O3 -DNDEBUG -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DCHECK_FUNCTION_EXISTS=cos  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_9d7e1.dir/CheckFunctionExists.c.o  -o cmTC_9d7e1  -lm 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test R-fvisibility=hidden succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3c5b7/fast && /usr/bin/make -f CMakeFiles/cmTC_3c5b7.dir/build.make CMakeFiles/cmTC_3c5b7.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c5b7.dir/src.cxx.o
+/usr/bin/c++    -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt    -DR-fvisibility=hidden   -fvisibility=hidden -o CMakeFiles/cmTC_3c5b7.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_3c5b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c5b7.dir/link.txt --verbose=1
+/usr/bin/c++  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt    -DR-fvisibility=hidden  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_3c5b7.dir/src.cxx.o  -o cmTC_3c5b7 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test R-fvisibility=hidden succeeded with the following output:
+Change Dir: /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_44c13/fast && /usr/bin/make -f CMakeFiles/cmTC_44c13.dir/build.make CMakeFiles/cmTC_44c13.dir/build
+make[1]: Entering directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_44c13.dir/src.cxx.o
+/usr/bin/c++    -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt    -DR-fvisibility=hidden   -fvisibility=hidden -o CMakeFiles/cmTC_44c13.dir/src.cxx.o -c /home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_44c13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44c13.dir/link.txt --verbose=1
+/usr/bin/c++  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt    -DR-fvisibility=hidden  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_44c13.dir/src.cxx.o  -o cmTC_44c13 
+make[1]: Leaving directory '/home/vamsik1211/Downloads/gazebo/src/gazebo-10.1.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

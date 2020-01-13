@@ -1,0 +1,27 @@
+# HG changeset patch
+# User Omar Shrit <shrit@lri.fr>
+# Date 1576189496 -3600
+# Branch OpenAL_struct
+# Node ID 556354dcebd180e0f1015b96890f9906e441b551
+# Parent  be467c68f241a0fa31509972b9bf0076a809330c
+Rename ALCdevice_struct and ALCcontext_struct
+
+According to OPENAL, they changed the structs name in
+the last version 1.20
+
+diff --git a/gazebo/util/OpenALPrivate.hh b/gazebo/util/OpenALPrivate.hh
+--- a/gazebo/util/OpenALPrivate.hh
++++ b/gazebo/util/OpenALPrivate.hh
+@@ -37,10 +37,10 @@
+     class OpenALPrivate
+     {
+       /// \brief OpenAL audio context pointer.
+-      public: ALCcontext_struct *context;
++      public: ALCcontext *context;
+ 
+       /// \brief OpenAL audio device pointer.
+-      public: ALCdevice_struct *audioDevice;
++      public: ALCdevice *audioDevice;
+ 
+       /// \brief OpenAL sink pointer.
+       public: OpenALSinkPtr sink;
